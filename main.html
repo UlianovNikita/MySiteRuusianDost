@@ -1,0 +1,45 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Главная</title>
+</head>
+<body background="images/content.jpg"><font face="Comic Sans MS" size="5">
+	<center><h2>Добро пожаловать!</h2></center>
+	<div align="center">
+	Здесь вы можете ознакомиться с информацией об основных городах России и их достопремичательностях, а также о турах проводимых по ним.<br>
+	Узнать подробнее можно нажав на одну из кнопок или воспользовавшись меню слева." <br>
+<p></p>
+	<form action="city.html" target="content">
+		<button>Грода</button>
+	</form>
+	<form action="tour_suzdal.html" target="content">
+		<button>Тур в Суздаль</button>
+	</form>
+	<form action="tour.html" target="content">
+		<button>Большой тур</button>
+	</form>
+	<p></p>
+	<div align="left">
+		Для покупки поездки по одному из предложеныъх туров требуется заполнить форму:
+		<p></p>
+	<form>
+		<label for="firsname">Имя: </label>
+		<input type="text" id="firsname"> <br>
+		<label for="lastname">Фамилия: </label>
+		<input type="text" id="lastname"><br>
+		<label for="email">e-mail: </label> <input type="text" id="email"><br>
+	Пол:
+	<select size="1"> <option selected value="1">Мужской</option>
+		<option value="2">Женский</option>
+	</select><br>
+	Тип тура:
+	<select size="1">
+		<option selected value="1">Тур в Суздаль</option>
+		<option value="2">Большой тур</option>
+	</select><br>
+	<input type="submit" value="Отправить">
+	<input type="reset">
+	</form>
+	</div>
+	</font></body>
+</html>
